@@ -28,8 +28,8 @@ jobs:
 
       - name: APply deployment for eks
         run: |
-          kubectl apply -f deployment.yaml
-          kubectl apply -f service.yaml
+          kubectl apply -f deploy.yaml
+          kubectl apply -f svc.yaml
 
       - name: Check created resources
         run: | 
